@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8"/> 
+    <title>Movie Review</title>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Amatic+SC|Nanum+Myeongjo" rel="stylesheet">
+    <style>
+        body {background-color: gray;}
+        a[href] {text-decoration : none}
+        a[href] {color : black; }
+        div.c1 {
+            margin : 1% 20%;
+            padding : 0.5%;
+            background-color: rgb(100, 98, 98);
+            border: 1.5px solid rgb(73, 73, 73);
+            font-size: 15pt;
+            overflow : auto;
+        }
+        .img1 {
+            margin : 1%;
+        }
+        div.c2 {
+            margin : 5% 25% 1% 25%;
+        }
+        div.c3 {
+            margin: 5% 50% 1% 20%;
+        }
+        div.c4 {
+            margin: 1% 10% 2% 10%;
+        }
+        textarea {
+            background-color: rgb(163, 163, 163);
+        }
+        input {
+            background-color: rgb(163, 163, 163);
+        }
+        p.icon1 {
+            position : fixed;
+            left : 5px; bottom : 0px;
+        }
+        p.icon2 {
+            position : fixed;
+            right : 30px; bottom : 20px;
+        }
+        nav a:hover {
+            color : rgb(71, 71, 71);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <center>
+        <br><br>
+            <h1><a href="moviereview.html"><font size="7" face="Amatic SC">MOVIE REVIEW</font></a></h1>
+        <br>
+        <hr size="2" align="center" width="50%" noshade="noshade" color="black">
+        <br>
+        <nav>
+            <font size="6" color="black" face="Amatic SC">
+            <b>
+            <span>
+                <a href="action.html" target="_self">Action&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="comedy.html" target="_self" style="color : rgb(201, 97, 0)">&nbsp;&nbsp;&nbsp;Comedy&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="romanticcomedy.html" target="_self">&nbsp;&nbsp;&nbsp;RomanticComedy&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="melo.html" target="_self">&nbsp;&nbsp;&nbsp;Melo&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="horror.html" target="_self">&nbsp;&nbsp;&nbsp;Horror&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="fantasy.html" target="_self">&nbsp;&nbsp;&nbsp;Fantasy</a>
+            </span>  
+            </b> 
+            </font>     
+        </nav>
+        <br>
+        <hr size="1" align="center" width="50%" noshade="noshade" color="black">
+        </center>
+    </header>
+    <br><br>
+    <br><br>
+    <div class="c1">
+        <img class="img1"src="어벤져스인피니티워.jpg" title="어벤져스 인피니티 워" width="400px" height="550px"style="float: left">
+        <font face="Nanum Gothic">
+        <h1>Avengers : Infinity War, 2018</h1>
+        <p><b>개요</b> 액션, 모험, 판타지, SF | 미국 | 149분 | 2018.04.25 개봉</p>
+        <p><b>감독</b> 안소니루소, 조 루소</p>
+        <p><b>출연</b> 로버트 다우니 주니어, 조슈 브롤린, 크리스 헴스워스, 베네딕트 컴버배치, 크리스 프랫, 마크 러팔로, 톰홀랜드, 채드윅 보스만 ···</p>
+        <p><b>등급</b> 12세 관람가</p>
+        <p><b>내용</b> 새로운 조합을 이룬 어벤져스, 역대 최강 빌런 타노스에 맞서 세계의 운명이 걸린 인피니티 스톤을 향한 무한 대결이 펼쳐진다! </p>
+        </font>
+    </div>
+    <div class="c2">
+        <iframe width="850" height="480" src="https://www.youtube.com/embed/xUDhdCsLkjU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div class="c3">
+        <font size="10" face="Amatic SC"><b>Create Review</b></font>
+        <form>
+            <br>
+            <select name="heart">
+                <option value="1" selected>♥</option>
+                <option value="2">♥ ♥</option>
+                <option value="3">♥ ♥ ♥</option>
+                <option value="4">♥ ♥ ♥ ♥</option>
+                <option value="5">♥ ♥ ♥ ♥ ♥</option>
+            </select>
+            <textarea rows="4" cols="100">리뷰를 남겨주세요.</textarea>
+            <p></p>
+                <input type="submit" value="남기기">
+        </form>
+    </div>
+    <div class="c4">
+        <center>
+            <font size="10" face="Amatic SC"><b>Review</b></font>
+        </center>
+        <br><br><br>   
+    </div>
+    <p class="icon1"><img src="movie1.png" width="200px"></p>
+    <p class="icon2"><img src="movie2.png" width="100px"></p>
+    <footer>
+            <br><br><br>
+            <hr size="2" align="center" width="70%" noshade="noshade" color="black">
+            <br><br>
+            <center>
+                Copyright &copy; Ha Bom-i
+            </center>
+            <br><br>
+        </footer>
+</body>
+
+</html>

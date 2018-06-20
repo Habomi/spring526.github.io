@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8"/> 
+    <title>Movie Review</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <style>
+        body {background-color: gray;}
+        a[href] {text-decoration : none}
+        a[href] {color : black; }
+        ul li {
+            display: inline-block;
+            margin : 5px 30px 5px 1px;
+            padding: 5px;
+        }
+        div.c1 {
+            border : dotted 2px yellow;
+            background-color: rgb(95, 95, 95);
+            margin : 1px 270px;
+        }
+        p.icon1 {
+            position : fixed;
+            left : 5px; bottom : 0px;
+        }
+        p.icon2 {
+            position : fixed;
+            right : 30px; bottom : 20px;
+        }
+        input {
+            background-color: rgb(163, 163, 163);
+        }
+        nav a:hover {
+            color : rgb(71, 71, 71);
+        }
+        ul img:hover {
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <center>
+        <br><br>
+            <h1><a href="moviereview.html"><font size="7" face="Amatic SC">MOVIE REVIEW</font></a></h1>
+        <br>
+        <hr size="2" align="center" width="50%" noshade="noshade" color="black">
+        <br>
+        <nav>
+            <font size="6" color="black" face="Amatic SC">
+            <b>
+            <span>
+                <a href="action.html" target="_self">Action&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="comedy.html" target="_self">&nbsp;&nbsp;&nbsp;Comedy&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="romanticcomedy.html" target="_self" style="color : yellow">&nbsp;&nbsp;&nbsp;RomanticComedy&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="melo.html" target="_self">&nbsp;&nbsp;&nbsp;Melo&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="horror.html" target="_self">&nbsp;&nbsp;&nbsp;Horror&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="fantasy.html" target="_self">&nbsp;&nbsp;&nbsp;Fantasy</a>
+            </span>  
+            </b> 
+            </font>     
+        </nav>
+        <br>
+        <hr size="1" align="center" width="50%" noshade="noshade" color="black">
+        </center>
+    </header>
+    <br><br>
+    <section>
+        <center>
+            <form name="research" action="review.jsp" method="GET">
+                <input type="search" name="moviesearch">
+                <input type="submit" value="검색">
+            </form>
+        </center>
+    </section>
+    <br><br>
+    <center>
+        <div class="c1">
+            <ul class="in">
+                <li>    
+                    <figure>
+                        <a href="LA.html">
+                        <img src="러브액츄얼리.jpg" alt="이미지가 표시되지 않습니다." title="러브 액츄얼리" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>Love Actually, 2003</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="proposal.html">
+                        <img src="프로포즈.jpg" alt="이미지가 표시되지 않습니다." title="프로포즈" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>The Proposal, 2009</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="OT.html">
+                        <image src="나의소녀시대.jpg" alt="이미지가 표시되지 않습니다." title="나의소녀시대" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>Our Times , 2015</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>    
+                    <figure>
+                        <a href="BB.html">
+                        <img src="브리짓존스의베이비.jpg" alt="이미지가 표시되지 않습니다." title="브리짓존스의 베이비" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>Bridget Jones's Baby, 2016</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>    
+                    <figure>
+                        <a href="내아내의모든것.html">
+                        <img src="내아내의모든것.jpg" alt="이미지가 표시되지 않습니다." title="내 아내의 모든 것" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>All About My Wife, 2012</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>    
+                    <figure>
+                        <a href="나의사랑나의신부.html">
+                        <img src="나의사랑나의신부.jpg" alt="이미지가 표시되지 않습니다." title="나의 사랑, 나의 신부" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>My Love, My Bride, 2014</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </center>
+    <p class="icon1"><img src="movie1.png" width="200px"></p>
+    <p class="icon2"><img src="movie2.png" width="100px"></p>
+    <footer>
+            <br><br><br>
+            <hr size="2" align="center" width="70%" noshade="noshade" color="black">
+            <br><br>
+            <center>
+                Copyright &copy; Ha Bom-i
+            </center>
+            <br><br>
+        </footer>
+</body>
+
+</html>

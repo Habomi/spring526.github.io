@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8"/> 
+    <title>Movie Review</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <style>
+        body {background-color: gray;}
+        a[href] {text-decoration : none}
+        a[href] {color : black; }
+        ul li {
+            display: inline-block;
+            margin : 5px 30px 5px 1px;
+            padding: 5px;
+        }
+        div.c1 {
+            border : dotted 2px rgb(201, 97, 0);
+            background-color: rgb(95, 95, 95);
+            margin : 1px 270px;
+        }
+        p.icon1 {
+            position : fixed;
+            left : 5px; bottom : 0px;
+        }
+        p.icon2 {
+            position : fixed;
+            right : 30px; bottom : 20px;
+        }
+        input {
+            background-color: rgb(163, 163, 163);
+        }
+        nav a:hover {
+            color : rgb(71, 71, 71);
+        }
+        ul img:hover {
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <center>
+        <br><br>
+            <h1><a href="moviereview.html"><font size="7" face="Amatic SC">MOVIE REVIEW</font></a></h1>
+        <br>
+        <hr size="2" align="center" width="50%" noshade="noshade" color="black">
+        <br>
+        <nav>
+            <font size="6" color="black" face="Amatic SC">
+            <b>
+            <span>
+                <a href="action.html" target="_self">Action&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="comedy.html" target="_self" style="color : rgb(201, 97, 0)">&nbsp;&nbsp;&nbsp;Comedy&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="romanticcomedy.html" target="_self">&nbsp;&nbsp;&nbsp;RomanticComedy&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="melo.html" target="_self">&nbsp;&nbsp;&nbsp;Melo&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="horror.html" target="_self">&nbsp;&nbsp;&nbsp;Horror&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="fantasy.html" target="_self">&nbsp;&nbsp;&nbsp;Fantasy</a>
+            </span>  
+            </b> 
+            </font>     
+        </nav>
+        <br>
+        <hr size="1" align="center" width="50%" noshade="noshade" color="black">
+        </center>
+    </header>
+    <br><br>
+    <section>
+        <center>
+            <form name="research" action="review.jsp" method="GET">
+                <input type="search" name="moviesearch">
+                <input type="submit" value="검색">
+            </form>
+        </center>
+    </section>
+    <br><br>
+    <center>
+        <div class="c1">
+            <ul class="in">
+                <li>    
+                    <figure>
+                        <a href="MT.html">
+                        <img src="모던타임즈.jpg" alt="이미지가 표시되지 않습니다." title="모던 타임즈" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>Modern Times, 1936</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="WC.html">
+                        <img src="화이트칙스.jpg" alt="이미지가 표시되지 않습니다." title="화이트 칙스" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>White Chicks, 2004</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="세얼간이.html">
+                        <image src="세얼간이.jpg" alt="이미지가 표시되지 않습니다." title="세얼간이" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>3 Idiots, 2009</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>    
+                    <figure>
+                        <a href="수상한그녀.html">
+                        <img src="수상한그녀.jpg" alt="이미지가 표시되지 않습니다." title="수상한 그녀" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>Miss Granny, 2014</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>    
+                    <figure>
+                    <a href="과속스캔들.html">
+                        <img src="과속스캔들.jpg" alt="이미지가 표시되지 않습니다." title="과속스캔들" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>Speed Scandal, 2008</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>    
+                    <figure>
+                        <a href="스물.html">
+                        <img src="스물.jpg" alt="이미지가 표시되지 않습니다." title="스물" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>Twenty, 2014</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </center>
+    <p class="icon1"><img src="movie1.png" width="200px"></p>
+    <p class="icon2"><img src="movie2.png" width="100px"></p>
+    <footer>
+            <br><br><br>
+            <hr size="2" align="center" width="70%" noshade="noshade" color="black">
+            <br><br>
+            <center>
+                Copyright &copy; Ha Bom-i
+            </center>
+            <br><br>
+        </footer>
+</body>
+
+</html>

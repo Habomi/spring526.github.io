@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8"/> 
+    <title>Movie Review</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <style>
+        body {background-color: gray;}
+        a[href] {text-decoration : none}
+        a[href] {color : black; }
+        ul li {
+            display: inline-block;
+            margin : 5px 30px 5px 1px;
+            padding: 5px;
+        }
+        div.c1 {
+            border : dotted 2px rgb(117, 0, 117);
+            background-color: rgb(95, 95, 95);
+            margin : 1px 270px;
+        }
+        p.icon1 {
+            position : fixed;
+            left : 5px; bottom : 0px;
+        }
+        p.icon2 {
+            position : fixed;
+            right : 30px; bottom : 20px;
+        }
+        input {
+            background-color: rgb(163, 163, 163);
+        }
+        nav a:hover {
+            color : rgb(71, 71, 71);
+        }
+        ul img:hover {
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <center>
+        <br><br>
+            <h1><a href="moviereview.html"><font size="7" face="Amatic SC">MOVIE REVIEW</font></a></h1>
+        <br>
+        <hr size="2" align="center" width="50%" noshade="noshade" color="black">
+        <br>
+        <nav>
+            <font size="6" color="black" face="Amatic SC">
+            <b>
+            <span>
+                <a href="action.html" target="_self">Action&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="comedy.html" target="_self">&nbsp;&nbsp;&nbsp;Comedy&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="romanticcomedy.html" target="_self">&nbsp;&nbsp;&nbsp;RomanticComedy&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="melo.html" target="_self">&nbsp;&nbsp;&nbsp;Melo&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="horror.html" target="_self">&nbsp;&nbsp;&nbsp;Horror&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="fantasy.html" target="_self" style="color : rgb(117, 0, 117)">&nbsp;&nbsp;&nbsp;Fantasy</a>
+            </span>  
+            </b> 
+            </font>     
+        </nav>
+        <br>
+        <hr size="1" align="center" width="50%" noshade="noshade" color="black">
+        </center>
+    </header>
+    <br><br>
+    <section>
+        <center>
+            <form name="research" action="review.jsp" method="GET">
+                <input type="search" name="moviesearch">
+                <input type="submit" value="검색">
+            </form>
+        </center>
+    </section>
+    <br><br>
+    <center>
+        <div class="c1">
+            <ul class="in">
+                <li>    
+                    <figure>
+                        <a href="caribbean.html">
+                        <img src="캐리비안의해적.jpg" alt="이미지가 표시되지 않습니다." title="캐리비안의 해적 : 낯선 조류" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>Pirates Of The Caribbean ,2011</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="coco.html">
+                        <img src="코코.jpg" alt="이미지가 표시되지 않습니다." title="코코" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>Coco, 2017</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="pan.html">
+                        <image src="판의미로.jpg" alt="이미지가 표시되지 않습니다." title="판의 미로 - 오필리아와 세 개의 열쇠" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>Pan's Labyrinth, 2006</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>    
+                    <figure>
+                        <a href="HPS.html">
+                        <img src="해리포터와마법사의돌.jpg" alt="이미지가 표시되지 않습니다." title="해리포터와 마법사의 돌" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>Harry Potter Sorcerer's Stone, 2001</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>    
+                    <figure>
+                        <a href="HPD.html">
+                        <img src="해리포터죽음의성물.jpg" alt="이미지가 표시되지 않습니다." title="해리포터 죽음의 성물" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>Harry Potter The Deathly Hallows, 2011</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>    
+                    <figure>
+                        <a href="ring.html">
+                        <img src="반지의제왕.jpg" alt="이미지가 표시되지 않습니다." title="반지의 제왕 : 왕의 귀환" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>The Lord Of The Rings, 2003</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </center>
+    <p class="icon1"><img src="movie1.png" width="200px"></p>
+    <p class="icon2"><img src="movie2.png" width="100px"></p>
+    <footer>
+            <br><br><br>
+            <hr size="2" align="center" width="70%" noshade="noshade" color="black">
+            <br><br>
+            <center>
+                Copyright &copy; Ha Bom-i
+            </center>
+            <br><br>
+        </footer>
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8"/> 
+    <title>Movie Review</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <style>
+        body {background-color: gray;}
+        a[href] {text-decoration : none}
+        a[href] {color : black; }
+        ul li {
+            display: inline-block;
+            margin : 5px 30px 5px 1px;
+            padding: 5px;
+        }
+        div.c1 {
+            border : dotted 2px red;
+            background-color: rgb(95, 95, 95);
+            margin : 1px 270px;
+        }
+        p.icon1 {
+            position : fixed;
+            left : 5px; bottom : 0px;
+        }
+        p.icon2 {
+            position : fixed;
+            right : 30px; bottom : 20px;
+        }
+        input {
+            background-color: rgb(163, 163, 163);
+        }
+        nav a:hover {
+            color : rgb(71, 71, 71);
+        }
+        ul img:hover {
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <center>
+        <br><br>
+            <h1><a href="moviereview.html"><font size="7" face="Amatic SC">MOVIE REVIEW</font></a></h1>
+        <br>
+        <hr size="2" align="center" width="50%" noshade="noshade" color="black">
+        <br>
+        <nav>
+            <font size="6" color="black" face="Amatic SC">
+            <b>
+            <span>
+                <a href="action.html" target="_self" style="color : red">Action&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="comedy.html" target="_self">&nbsp;&nbsp;&nbsp;Comedy&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="romanticcomedy.html" target="_self">&nbsp;&nbsp;&nbsp;RomanticComedy&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="melo.html" target="_self">&nbsp;&nbsp;&nbsp;Melo&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="horror.html" target="_self">&nbsp;&nbsp;&nbsp;Horror&nbsp;&nbsp;&nbsp;</a>
+            </span>
+            <span>
+                <a href="fantasy.html" target="_self">&nbsp;&nbsp;&nbsp;Fantasy</a>
+            </span>  
+            </b> 
+            </font>     
+        </nav>
+        <br>
+        <hr size="1" align="center" width="50%" noshade="noshade" color="black">
+        </center>
+    </header>
+    <br><br>
+    <section>
+        <center>
+            <form name="research" action="review.jsp" method="GET">
+                <input type="search" name="moviesearch">
+                <input type="submit" value="검색">
+            </form>
+        </center>
+    </section>
+    <br><br>
+    <center>
+        <div class="c1">
+            <ul class="in">
+                <li>    
+                    <figure>
+                        <a href="AIW2018.html">
+                        <img src="어벤져스인피니티워.jpg" alt="이미지가 표시되지 않습니다." title="어벤져스 인피니티 워" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>Avengers : Infinity War, 2018</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="아저씨.html">
+                        <img src="아저씨.jpg" alt="이미지가 표시되지 않습니다." title="아저씨" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>The Man from Nowhere, 2010</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <a href="kingsman.html">
+                        <image src="kingsman.jpg" alt="이미지가 표시되지 않습니다." title="킹스맨 시크릿 에이전트" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>Kingsman:The Secret Service, 2015</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>    
+                    <figure>
+                        <a href="MIL.html">
+                        <img src="미션임파서블로그네이션.jpg" alt="이미지가 표시되지 않습니다." title="미션임파서블 로그네이션" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>Mission:Impossible, 2015</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>    
+                    <figure>
+                        <a href="Deadpool.html">
+                        <img src="데드풀.jpg" alt="이미지가 표시되지 않습니다." title="데드풀" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>Deadpool, 2016</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>    
+                    <figure>
+                        <a href="Avatar.html">
+                        <img src="아바타.jpg" alt="이미지가 표시되지 않습니다." title="아바타" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>Avatar, 2009</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>    
+                    <figure>
+                        <a href="Monday.html">
+                        <img src="월요일이사라졌다.jpg" alt="이미지가 표시되지 않습니다." title="월요일이 사라졌다" width="220px" height="320px">
+                        <figcaption><font size="5" face="Amatic SC"><b>What Happened to Monday?, 2017</b></font></figcaption>
+                        </a>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </center>
+    <p class="icon1"><img src="movie1.png" width="200px"></p>
+    <p class="icon2"><img src="movie2.png" width="100px"></p>
+    <footer>
+        <br><br><br>
+        <hr size="2" align="center" width="70%" noshade="noshade" color="black">
+        <br><br>
+        <center>
+            Copyright &copy; Ha Bom-i
+        </center>
+        <br><br>
+    </footer>
+</body>
+</html>
